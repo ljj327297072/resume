@@ -3183,8 +3183,6 @@ img {
   height: 100%;
   text-align: center;
   line-height: 44px; }
-  #detail header ul li:nth-of-type(1) i, #detail header ul li:nth-of-type(3) i {
-    color: #fff; }
 
 #detail header ul li span {
   font-weight: bold;

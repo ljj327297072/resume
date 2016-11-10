@@ -3183,8 +3183,13 @@ img {
   height: 100%;
   text-align: center;
   line-height: 44px; }
-  #detail header ul li:nth-of-type(1) i, #detail header ul li:nth-of-type(3) i {
-    color: #fff; }
+  #detail header ul li:nth-of-type(1) button, #detail header ul li:nth-of-type(3) button {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    color: #fff;
+    outline: none; }
 
 #detail header ul li span {
   font-weight: bold;
@@ -3219,9 +3224,6 @@ img {
 .active {
   background: #3C7A03; }
 
-#contents {
-  font-size: 16px; }
-
 #contents ul {
   width: 100%;
   border-bottom: 1px solid #d9d9d9;
@@ -3232,6 +3234,8 @@ img {
     padding: 0 10%;
     margin-top: 5%;
     text-align: left; }
+    #contents ul li .item {
+      font-weight: bold; }
     #contents ul li img {
       width: 100%;
       height: 100%; }
@@ -3239,39 +3243,18 @@ img {
     margin-bottom: 5%; }
   #contents ul .itemImg {
     width: 100%;
-    height: 150px; }
+    height: 20%; }
 
-.item {
-  font-weight: bold; }
+#contents .myImg {
+  width: 35%;
+  height: 30%;
+  margin: 15% 32.5%; }
 
-#contents div {
-  padding: 0px 10%;
-  margin-top: 5%; }
+#contents .tip {
+  margin-left: 10%;
+  margin-bottom: 5%; }
 
-#contents div:last-child {
-  width: 100%;
-  height: 60%; }
-  #contents div:last-child img {
-    width: 100%;
-    height: 100%; }
-
-@font-face {
-  font-family: "iconfont";
-  src: url("iconfont.eot?t=1478742968829");
-  /* IE9*/
-  src: url("iconfont.eot?t=1478742968829#iefix") format("embedded-opentype"), url("iconfont.woff?t=1478742968829") format("woff"), url("iconfont.ttf?t=1478742968829") format("truetype"), url("iconfont.svg?t=1478742968829#iconfont") format("svg");
-  /* iOS 4.1- */ }
-
-.iconfont {
-  font-family: "iconfont" !important;
-  font-size: 16px;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-stroke-width: 0.2px;
-  -moz-osx-font-smoothing: grayscale; }
-
-.icon-xiangji:before {
-  content: "\f0058"; }
-
-.icon-dingwei:before {
-  content: "\e61b"; }
+#contents .QrCode {
+  width: 40%;
+  height: 40%;
+  margin-left: 30%; }

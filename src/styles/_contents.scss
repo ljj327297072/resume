@@ -1,3 +1,6 @@
+#contents{
+    font-size: 16px;
+}
 #contents ul{
     width:100%;
 //  height: 30%;
@@ -9,23 +12,38 @@
         padding: 0 10%;
         margin-top: 5%;
         text-align: left;
+        
+        
+        img{
+            width: 100%;
+            height: 100%;
+        }
     }
+    
     li:last-child{
         margin-bottom: 5%;
     }
+    .itemImg{
+        width: 100%;
+        height: 150px;
+    }
 }
-#contents .myImg{
-    width: 35%;
-    height: 30%;
-//  margin-left: 32.5%;
-    margin: 15% 32.5%;
+.item{
+            font-weight: bold;
+        }
+#contents{
+    div{
+        padding: 0px 10%;
+        margin-top: 5%;
+    }
+    div:last-child{
+        width: 100%;
+        height: 60%;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    
 }
-#contents .tip{
-    margin-left: 10%;
-    margin-bottom: 5%;
-}
-#contents .QrCode{
-    width: 40%;
-    height: 40%;
-    margin-left: 30%;
-}
+
